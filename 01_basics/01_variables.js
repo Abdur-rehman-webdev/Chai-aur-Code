@@ -10,6 +10,7 @@ accountEmail="abc@gmail.com";
 accountPassword ="121212121";
 accountCity="lahore";
 
+// Notes
 /*
 Prefer not to use Var
 bcz of its block scope issues

@@ -1,5 +1,5 @@
 "use strict" // this keyword will use javascript new techniques and versions
-
+// Notes
 //alert('Hello') // We are using node js, not browser
 
 // Code readability should be high
