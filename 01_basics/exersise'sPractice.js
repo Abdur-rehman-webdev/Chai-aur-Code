@@ -50,14 +50,36 @@
 
 // ...........................................................
 
-const number = parseInt(prompt('Enter the number of terms: '));
-let n1 = 0, n2 = 1, nextTerm;
+// const number = parseInt(prompt('Enter the number of terms: '));
+// let n1 = 0, n2 = 1, nextTerm;
 
-console.log('Fibonacci Series:');
+// console.log('Fibonacci Series:');
 
-for (let i = 1; i <= number; i++) {
-    console.log(n1);
-    nextTerm = n1 + n2;
-    n1 = n2;
-    n2 = nextTerm;
+// for (let i = 1; i <= number; i++) {
+//     console.log(n1);
+//     nextTerm = n1 + n2;
+//     n1 = n2;
+//     n2 = nextTerm;
+// }
+
+// ........ Program to Check is string Palindrome ....................
+
+// function isPalindrome(str){
+//         const reversed = str.split("").reverse().join("");
+//         return str === reversed;
+// }
+
+// console.log(isPalindrome("noon"));
+// console.log(isPalindrome("Paralyzed"));
+// console.log(isPalindrome("racecar"));
+
+// ......... Fictorial Program Exercise ..............................
+
+function fictorial(num){
+    if(num === 0 || num === 1){
+        return 1;
+    }
+    return num * fictorial(num -1);
 }
+
+console.log(fictorial(3))
